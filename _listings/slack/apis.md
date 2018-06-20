@@ -9,10 +9,10 @@ description: Slack is a team communication application providing services such a
   Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: OAuth
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,26 +20,26 @@ apis:
   x-api-slug: slack
   description: Exchanges a temporary OAuth verifier code for a workspace token.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
-  humanURL: https://slack.com
+  humanURL: https://api.slack.com
   baseURL: https://slack.com//api//oauth.token
   tags: Messaging,OAuth
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauthtoken-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauth-token-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauthtoken-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauth-token-get-openapi.md
 - name: Slack Oauth Access
   x-api-slug: slack
   description: Exchanges a temporary OAuth code for an API token.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
-  humanURL: https://slack.com
+  humanURL: https://api.slack.com
   baseURL: https://slack.com//api//oauth.access
   tags: Messaging,OAuth
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauthaccess-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauth-access-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauthaccess-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/oauth-access-get-openapi.md
 - name: Slack
   x-api-slug: slack
   description: Slack is a team communication application providing services such as
@@ -49,13 +49,15 @@ apis:
     one search box and it integrates with a number of third-party services, including
     Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
-  humanURL: https://slack.com
+  humanURL: https://api.slack.com
   baseURL: https://slack.com//api
   tags: OAuth
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/openapi.md
 x-common:
+- type: x-website
+  url: https://api.slack.com
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog
@@ -114,6 +116,8 @@ x-common:
   url: https://slack.com/transparency-report
 - type: x-twitter
   url: https://twitter.com/slackapi
+- type: x-website
+  url: http://slack.com
 - type: x-website
   url: https://slack.com
 include: []

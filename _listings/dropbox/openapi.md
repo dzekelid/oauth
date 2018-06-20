@@ -3,13 +3,9 @@ swagger: "2.0"
 x-collection-name: Dropbox
 x-complete: 1
 info:
-  title: Dropbox Core API v1
-  description: the-dropbox-core-api-is-the-underlying-interface-for-all-of-our-official-dropbox-mobile-appshttpswwwdropboxcommobileand-our-sdkshttpswwwdropboxcomdeveloperscoresdk-its-the-most-direct-way-to-access-the-api-thisreference-document-is-designed-for-those-interested-in-developing-for-platforms-not-supported-by-the-sdks-or-forthose-interested-in-exploring-api-features-in-detail
-  termsOfService: https://www.dropbox.com/developers/reference/tos
-  contact:
-    name: Dropbox
-    url: https://www.dropbox.com/developers
-  version: 1.0.0
+  title: Dropbox
+  description: the-dropbox-api-allows-you-to-build-the-power-of-dropbox-directly-into-your-app-
+  version: "1"
 host: api.dropbox.com
 basePath: /1
 schemes:
@@ -19,20 +15,61 @@ produces:
 consumes:
 - application/json
 paths:
-  /oauth2/token_from_oauth1:
+  /oauth/access_token:
     post:
-      summary: Convert OAuth 1 token to OAuth 2 token.
-      description: |-
-        This endpoint should be used by apps transitioning from OAuth 1 to OAuth 2. It will return an OAuth 2 token
-        for the authenticated user.
-      operationId: this-endpoint-should-be-used-by-apps-transitioning-from-oauth-1-to-oauth-2-it-will-return-an-oauth-2
-      x-api-path-slug: oauth2token-from-oauth1-post
+      summary: OAuth Access Token
+      description: /oauth/access_token
+      operationId: oauthaccess-token
+      x-api-path-slug: oauthaccess-token-post
       responses:
         200:
           description: OK
       tags:
-      - Storage
-      - Documents
+      - Oauth
+      - Access
+      - Token
+  /oauth/request_token:
+    post:
+      summary: OAuth Request Token
+      description: /oauth/request_token
+      operationId: oauthrequest-token
+      x-api-path-slug: oauthrequest-token-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Oauth
+      - Request
+      - Token
+  /oauth2/token:
+    post:
+      summary: OAuth Token
+      description: /oauth2/token
+      operationId: oauth2token
+      x-api-path-slug: oauth2token-post
+      parameters:
+      - in: query
+        name: client_id
+        description: If credentials are passed in POST parameters, this parameter
+          should be present and should be the apps key (found in the App Console)
+      - in: query
+        name: client_secret
+        description: If credentials are passed in POST parameters, this parameter
+          should be present and should be the apps secret
+      - in: query
+        name: code
+        description: The code acquired by directing users to /oauth2/authorize?response_type=code
+      - in: query
+        name: grant_type
+        description: The grant type, which must be authorization_code
+      - in: query
+        name: redirect_uri
+        description: Only used to validate that it matches the original /oauth2/authorize,
+          not used to redirect again
+      responses:
+        200:
+          description: OK
+      tags:
       - Oauth2
-      - Token_from_oauth1
+      - Token
 ---
