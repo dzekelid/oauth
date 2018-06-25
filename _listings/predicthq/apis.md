@@ -3,12 +3,12 @@ name: PredictHQ
 x-slug: predicthq
 description: Event visibility yields higher returns & reduces operational costs. PredictHQ
   is the worlds largest source of intelligent event data making businesses smarter.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
 x-kinRank: "7"
-x-alexaRank: "428389"
+x-alexaRank: "292227"
 tags: OAuth
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/predicthq/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +18,7 @@ apis:
     Access Tokens never expire so once you have it, it's yours for the life of your PredictHQ API subscription.
 
     However, if you think your token may have been compromised, you have the power to revoke it at any time.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
   baseURL: https://api.predicthq.com////oauth2/revoke/
   tags: Oauth2,Revoke
@@ -39,7 +39,7 @@ apis:
       - `signals` Grants access to the signals endpoint.
 
     Please note that Access Tokens requested via the client_credentials grant type never expire.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
   baseURL: https://api.predicthq.com////oauth2/token/
   tags: Oauth2,Token
@@ -53,7 +53,7 @@ apis:
   description: Event visibility yields higher returns & reduces operational costs.
     PredictHQ is the worlds largest source of intelligent event data making businesses
     smarter.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-developer-predicthq-com.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-predicthq.jpg
   humanURL: http://www.predicthq.com/
   baseURL: https://api.predicthq.com//
   tags: OAuth
@@ -73,6 +73,8 @@ x-common:
   url: notices@predicthq.com
 - type: x-github
   url: https://github.com/predicthq
+- type: x-linkedin
+  url: PredictHQ
 - type: x-twitter
   url: https://twitter.com/PredictHQ
 - type: x-website

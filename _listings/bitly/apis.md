@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly
 x-kinRank: "8"
 x-alexaRank: "737"
 tags: OAuth
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/bitly/apis.md
 specificationVersion: "0.14"
 apis:
