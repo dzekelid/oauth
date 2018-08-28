@@ -7,83 +7,44 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbo
 x-kinRank: "10"
 x-alexaRank: "89"
 tags: OAuth
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Dropbox Core Convert OAuth 1 token to OAuth 2 token.
-  x-api-slug: dropbox-core
-  description: |-
-    This endpoint should be used by apps transitioning from OAuth 1 to OAuth 2. It will return an OAuth 2 token
-    for the authenticated user.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//oauth2/token_from_oauth1
-  tags: Storage,Documents,Oauth2,Token_from_oauth1
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauth2token-from-oauth1-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauth2token-from-oauth1-post-openapi.md
-- name: Dropbox Core
-  x-api-slug: dropbox-core
-  description: Dropbox is a modern workspace designed to reduce busywork-so you can
-    focus on the things that matter. Sign in and put your creative energy to work.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: OAuth
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/openapi.md
-- name: Dropbox Datastore API OAuth Access Token
-  x-api-slug: dropbox-datastore-api
+- name: Dropbox - OAuth Access Token
+  x-api-slug: oauthaccess-token-post
   description: /oauth/access_token
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//oauth/access_token
-  tags: Oauth,Access,Token
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauthaccess-token-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauthaccess-token-post-openapi.md
-- name: Dropbox Datastore API OAuth Request Token
-  x-api-slug: dropbox-datastore-api
+- name: Dropbox - OAuth Request Token
+  x-api-slug: oauthrequest-token-post
   description: /oauth/request_token
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
   humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//oauth/request_token
-  tags: Oauth,Request,Token
+  baseURL: https://api.dropbox.com//1
+  tags: File Storage, Sharing, Storage, Storage, My API Stack, API LIfeyclessss, Indie
+    EdTech Data Jam, Storage, Stack, Technology, Mobile, SaaS, internet, API Provider,
+    API Service Provider, Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauthrequest-token-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauthrequest-token-post-openapi.md
-- name: Dropbox Datastore API OAuth Token
-  x-api-slug: dropbox-datastore-api
-  description: /oauth2/token
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1//oauth2/token
-  tags: Oauth2,Token
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauth2token-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/oauth2token-post-openapi.md
-- name: Dropbox Datastore API
-  x-api-slug: dropbox-datastore-api
-  description: Keep your apps structured data in sync with Dropbox
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg
-  humanURL: http://dropbox.com
-  baseURL: https://api.dropbox.com//1
-  tags: OAuth
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://donorschoose.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://dropbox.stack.network
 - type: x-application-management
   url: https://www.dropbox.com/developers/apps
 - type: x-base

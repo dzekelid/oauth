@@ -1,0 +1,375 @@
+{
+	"name": "Streadata.io API Gallery - OAuth",
+	"description": "This is a repository of oauth APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/oauth.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://oauth.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dropbox",
+			"x-api-slug": "dropbox",
+			"description": "Dropbox is a modern workspace designed to reduce busywork-so you can focus on the things that matter. Sign in and put your creative energy to work.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/184-dropbox.jpg",
+			"humanURL": "http://dropbox.com",
+			"baseURL": "https://api-notify.dropbox.com//1",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bitly",
+			"x-api-slug": "bitly",
+			"description": "Get the most out of your social and online marketing efforts. Own, understand and activate your best audience through the power of the link with Bitly Enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1503-bitly.jpg",
+			"humanURL": "http://bitly.com",
+			"baseURL": "https://api-ssl.bitly.com//v3",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/bitly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OAuth.io",
+			"x-api-slug": "oauth-io",
+			"description": "Integrate 100+ OAuth providers in minutes. Setup your keys, install oauth.js, and you are ready to play !",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2715-oauth-io.jpg",
+			"humanURL": "https://oauth.io/home/pricing",
+			"baseURL": "https:///",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/oauth-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flickr",
+			"x-api-slug": "flickr",
+			"description": "Flickr (pronounced flicker) is an image hosting and video hosting website, and web services suite that was created by Ludicorp in 2004 and acquired by Yahoo in 2005. In addition to being a popular website for users to share and embed personal photographs, and effectively an online community, the service is widely used by photo researchers and by bloggers to host images that they embed in blogs and social media.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flickr-logo.jpg",
+			"humanURL": "http://www.flickr.com/",
+			"baseURL": "https://api.flickr.com//services/",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/flickr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Auth0",
+			"x-api-slug": "auth0",
+			"description": "The new way to solve Identity",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg",
+			"humanURL": "https://auth0.com/",
+			"baseURL": "https://login.auth0.com//users",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/auth0/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tyk",
+			"x-api-slug": "tyk",
+			"description": "Tyk - Open Source API Gateway, API Management Platform, Developer Portal and Analytics - Tyk",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11408-tyk.jpg",
+			"humanURL": "http://www.tyk.io",
+			"baseURL": "https://{baseURL}//",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/tyk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Slack",
+			"x-api-slug": "slack",
+			"description": "Slack is a team communication application providing services such as real-time messaging, archiving, and to search for modern teams. It offers one-on-one messaging, private groups, persistent chat rooms, and direct messaging as well as group chats organized by topic. All content inside Slack is searchable from one search box and it integrates with a number of third-party services, including Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png",
+			"humanURL": "https://api.slack.com",
+			"baseURL": "https://slack.com//api",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenUMA",
+			"x-api-slug": "openuma",
+			"description": "At ForgeRock we provide an identity and access platform to secure every online relationship for the enterprise market, educational sector and even entire countries.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "https://forgerock.org/openuma/",
+			"baseURL": "https:///",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/openuma/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google OAuth2",
+			"x-api-slug": "google-oauth2",
+			"description": "Google APIs use the OAuth 2.0 protocol for authentication and authorization. Google supports common OAuth 2.0 scenarios such as those for web server, installed, and client-side applications. To begin, obtain OAuth 2.0 client credentials from the Google API Console. Then your client application requests an access token from the Google Authorization Server, extracts a token from the response, and sends the token to the Google API that you want to access. For an interactive demonstration of using OAuth 2.0 with Google (including the option to use your own client credentials), experiment with the OAuth 2.0 Playground.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-OAuth@2x.png",
+			"humanURL": "https://developers.google.com/identity/protocols/OAuth2",
+			"baseURL": "://www.googleapis.com//",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/google-oauth2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twine",
+			"x-api-slug": "twine",
+			"description": "Twine Health is a cloud-based collaborative care platform for chronic disease management. It consists of a patient engagement portal, a peer support network, a care management solution, and an outcome analytics tool. The platform enables users to co-create personalized care plans that serve as common ground for collaboration with their care team: their own providers such as physicians and nurse practitioners; their family and friends; and coaches such as nurses, pharmacists, health coaches, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twinehealth.png",
+			"humanURL": "http://twinehealth.com",
+			"baseURL": "https://api.twinehealth.com//pub",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/twine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Backupify",
+			"x-api-slug": "backupify",
+			"description": "",
+			"image": "",
+			"humanURL": "http://backupify.com",
+			"baseURL": "https://api.backupify.com//",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/backupify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinFabrik",
+			"x-api-slug": "coinfabrik",
+			"description": "Our smart contract development and full stack blockchain development services are supported by more than 20 years of experience building and reviewing secure applications. CoinFabrik is a full stack blockchain development company. Our expertise range from extending cryptocurrency nodes like Bitcoin and Ethereum to providing high level APIs and UIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png",
+			"humanURL": "https://www.coinfabrik.com",
+			"baseURL": "https://api.coinbase.com//v2",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/coinfabrik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "OAuth",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "OAuth",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "Dropbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dropbox/apis.yaml"
+		},
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "Bitly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/bitly/apis.yaml"
+		},
+		{
+			"name": "OAuth.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/oauth-io/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Flickr",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/flickr/apis.yaml"
+		},
+		{
+			"name": "Auth0",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/auth0/apis.yaml"
+		},
+		{
+			"name": "Tyk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/tyk/apis.yaml"
+		},
+		{
+			"name": "Slack",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/slack/apis.yaml"
+		},
+		{
+			"name": "OpenUMA",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/openuma/apis.yaml"
+		},
+		{
+			"name": "Google OAuth2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/google-oauth2/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Twine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/twine/apis.yaml"
+		},
+		{
+			"name": "Backupify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/backupify/apis.yaml"
+		},
+		{
+			"name": "CoinFabrik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/coinfabrik/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

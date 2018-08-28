@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Backupify
 x-complete: 1
@@ -44,4 +43,3 @@ paths:
       tags:
       - Oauth
       - Token
----

@@ -6,71 +6,68 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-contex
 x-kinRank: "9"
 x-alexaRank: "569975"
 tags: OAuth
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO Get Oauth Provers
-  x-api-slug: context-io
+- name: Context.IO - Get Oauth Provers
+  x-api-slug: oauth-providers-get
   description: List configured OAuth providers.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///oauth_providers
-  tags: Oauth,Providers
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providers-get-openapi.md
-- name: Context.IO Post Oauth Provers
-  x-api-slug: context-io
+- name: Context.IO - Post Oauth Provers
+  x-api-slug: oauth-providers-post
   description: Adds a new OAuth provider.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///oauth_providers
-  tags: Oauth,Providers
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providers-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providers-post-openapi.md
-- name: Context.IO Get Oauth Provers Key
-  x-api-slug: context-io
+- name: Context.IO - Get Oauth Provers Key
+  x-api-slug: oauth-providerskey-get
   description: Gets information about a given OAuth provider.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///oauth_providers/{key}
-  tags: Oauth,Providers,Key
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providerskey-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providerskey-get-openapi.md
-- name: Context.IO Delete Oauth Provers Key
-  x-api-slug: context-io
+- name: Context.IO - Delete Oauth Provers Key
+  x-api-slug: oauth-providerskey-delete
   description: Removes a given OAuth provider.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0///oauth_providers/{key}
-  tags: Oauth,Providers,Key
+  baseURL: https://api.context.io//2.0/
+  tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
+    Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providerskey-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/oauth-providerskey-delete-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
-  humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0/
-  tags: OAuth
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/oauth/master/_listings/context-io/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://constant.contact.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://context.io.stack.network
 - type: x-base
   url: https://api.context.io/
 - type: x-blog
